@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+  }
+body{
+    background-color: grey;
+    }
+nav {
+    font-family: 'Oswald', sans-serif;
+    background-color: #0C73F7;
+    list-style: none;
+    padding: 0;
+    width: 90%;
+    max-width: auto;
+    margin: auto;
+}
+nav li a{
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+    border-radius: 20px;
+}
+nav li{
+    display:  inline-block;
+    text-align: center;
+}
+nav li a:hover{
+    background: #F7930C;
+}
+.infoPerExp{
+    background: #0C73F7;
+    width: 47%;
+    height: 600px;
+    border-radius: 20px;
+    top: 40%;
+    position: absolute;
+    padding: 30px;
+    margin: 10px;
+}
+.Habilidades{
+    background: #0C73F7;
+    position: absolute;
+    padding: 30px;
+    margin: 10px;
+    border-radius: 20px;
+    top: 14%;
+}
+aside{
+    position: absolute;
+    left: 60%;
+    top: 49%;
+}
+.pInfoPer{
+    color: #F7930C;
+    text-align: center;
+    text-decoration: none;
+    border: 3px inset gray;
+}
+.pExpe{
+    color: #F7930C;
+    text-align: center;
+    text-decoration: none;
+    border: 3px inset gray;
+}
+.Expe{
+    text-decoration: none;
+    position: absolute;
+}
+#botonMc{
+    color: black;
+    text-align: center;
+    background-color: #F7930C;
+}
+#botonSod{
+    color: black;
+    text-align: center;
+    background-color: #F7930C;
+}#botonRoti{
+    color: black;
+    text-align: center;
+    background-color: #F7930C;
+}
+

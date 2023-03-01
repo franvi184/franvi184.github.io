@@ -1,0 +1,39 @@
+body{
+background-color: grey;
+}
+nav {
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto Serif', serif;;
+    background-color: #0C73F7;
+    list-style: none;
+    padding: 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+}
+nav li a{
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+}
+nav li{
+    display:  inline-block;
+    text-align: center;
+}
+nav li a:hover{
+    background: #F7930C;
+}
+.imagen{
+    width: 40px;
+    display: flex;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+}
+.titulo{
+    width: 200px;
+    text-decoration: none;
+    font-size: 180px;
+    text-align: center;
+}
